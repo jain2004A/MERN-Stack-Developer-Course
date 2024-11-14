@@ -1,0 +1,4 @@
+2024-10-22 12:09:07.891 [error] Error: Error mutex already exists
+    at Du.U (file:///C:/Users/aryan_jain/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-main/main.js:81:17158)
+2024-10-22 12:09:07.891 [info] update#setState idle
+2024-10-22 12:09:18.853 [info] Extension host with pid 28184 exited with code: 0, signal: unknown.

@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.note{
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+div{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+img{
+    border: 5px solid white;
+    width: 100%;
+}

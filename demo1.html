@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Text Example</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>/* Gradient Text */
+    .gradient-text {
+      font-size: 2em;
+      font-weight: bold;
+      background: linear-gradient(45deg, #ff6b6b, #f6d365);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    /* Shadow Text */
+    .shadow-text {
+      font-size: 2em;
+      color: #4a90e2;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Multicolor Text */
+    .multicolor-text {
+      font-size: 2em;
+      background: linear-gradient(90deg, #ff6b6b, #ffb86b, #ffd36b, #6bffb6, #6bafff, #d36bff);
+      background-size: 600%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient-animation 5s ease infinite;
+    }
+    
+    /* Animation for the multicolor text */
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    </style>
+</head>
+<body>
+  <h1 class="gradient-text">Gradient Text</h1>
+  <h1 class="shadow-text">Shadow Text</h1>
+  <h1 class="multicolor-text">Multicolor Text</h1>
+</body>
+</html>

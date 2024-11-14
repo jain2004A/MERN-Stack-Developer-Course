@@ -1,0 +1,38 @@
+ISP - Internet service provider
+
+DNS - Domain name system
+
+HTML - hyper text markup langage
+
+
+Types of list
+
+Unorderd list 
+<ul>
+<li></li>
+</ul>
+
+Ordered list 
+<ol>
+<li></li>
+</ol>
+
+HTML Attributes 
+
+<tag Attributes="wwww.xyz">this is a link</tag>
+
+
+biolerplate
+
+
+CSS - CASCADING STYLE SHEETS
+inline css 
+internal css 
+external css
+
+
+color hunt
+
+https://color.adobe.com/create/color-wheel
+
+https://colorhunt.co/
